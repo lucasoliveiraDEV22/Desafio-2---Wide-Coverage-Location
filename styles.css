@@ -89,6 +89,8 @@ a {
     letter-spacing: 1px;
     color: #6FBF44;
     cursor: pointer;
+    width: 112px;
+    height: 27px;
     }
 
 a:hover {
@@ -113,10 +115,11 @@ a:active {
         display: none;
     }
     .container {
-        top: 124px;
+        top: 120px;
         display: block;
         margin: 0;
         padding: 0;
+        bottom:40px;
 
     }
     .imagem {
@@ -157,6 +160,10 @@ a:active {
 
     a {
         margin: 26px 139px 0;
+        width: auto;
+        text-align: center;
+        /* display: inline-block; */
+    
     }
     
 }
@@ -164,8 +171,17 @@ a:active {
     .container {
         top: 79px;
     }
+    a {
+        text-align: center;
+        line-height: 27px;
+
+    
+    }
 
     .imagem {
-        top: 50vh;
+        top: 60vh;
+        width: 250px;
+        height: 205px;
+    
     }
 }
