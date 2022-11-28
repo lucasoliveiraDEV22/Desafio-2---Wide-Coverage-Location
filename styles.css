@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: #e7faee
 }
 
 div {
@@ -162,6 +163,7 @@ a:active {
         margin: 26px 139px 0;
         width: auto;
         text-align: center;
+        position: fixed;
         /* display: inline-block; */
     
     }
