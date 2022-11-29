@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #e7faee
 }
 
 div {
@@ -53,7 +52,7 @@ button:active {
 }
 
 .imagem {
-    padding: 163px 85px 0 121px;
+    margin: 163px 85px 0 121px;
     display: inline-block;
 }
 
@@ -90,8 +89,7 @@ a {
     letter-spacing: 1px;
     color: #6FBF44;
     cursor: pointer;
-    width: 112px;
-    height: 27px;
+    text-decoration: none;
     }
 
 a:hover {
@@ -104,8 +102,8 @@ a:active {
 
 @media screen and (max-width: 800px) {
     div {
-        max-width: 24%;
-        min-height: 100vh;
+        max-width: 25%;
+        min-height: 70%;
     }
 
     header {
@@ -124,11 +122,12 @@ a:active {
 
     }
     .imagem {
-        margin: 0;
+        margin: 59px 50px 0;
         display: block;
         position: absolute;
-        top: 68%;
-        width: 80%;
+        top: 490px;
+        width: 56%;
+        left: 10%;
     }
 
     button {
@@ -159,9 +158,9 @@ a:active {
 
     a {
         margin: 26px 139px 0;
-        width: auto;
+        width: 130px;
         text-align: center;
-        position: fixed;
+        display: block;
         /* display: inline-block; */
     
     }
@@ -179,7 +178,7 @@ a:active {
     }
 
     .imagem {
-        top: 60vh;
+        top: 68vh;
         width: 250px;
         height: 205px;
     
